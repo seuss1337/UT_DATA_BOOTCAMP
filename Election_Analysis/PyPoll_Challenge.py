@@ -91,9 +91,12 @@ with open(file_to_save, "w") as txt_file:
         # 6c: Calculate the percent of total votes for the county.
         votes_percentage = round(votes / total_votes * 100, 2)
         # 6d: Print the county results to the terminal.
-        print(str(i) + " " + str(votes_percentage) + " " + str(votes))
+        # print(str(i) + " " + str(votes_percentage) + "% (" + str(votes) + ")")
+        county_results = f"{i}: {votes_percentage:.1f}% ({votes:,})"
+        print(county_results)
         # 6e: Save the county votes to a text file.
-        txt_file.write(str(i) + " " + str(votes_percentage) + " " + str(votes) + "\n")
+        txt_file.write(county_results)
+        txt_file.write("\n")
         # 6f: Write a decision statement to determine the winning county and get its vote count.
         if winning_count < votes:
             winning_count = votes
