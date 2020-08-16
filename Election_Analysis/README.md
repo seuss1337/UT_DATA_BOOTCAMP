@@ -25,8 +25,3 @@ function.
 This script can be used as is for any election without modification, the only
 requirement is for the source data to be supplied in the same format. Additional
 features or statistics can easily be added.
-
-# 1 hash
-## 2 hash
-### 3 hash
-#### 4 hash
