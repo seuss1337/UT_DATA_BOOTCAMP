@@ -2,7 +2,7 @@
 
 ## Overview of Election audit
 In this project we seek to audit election results using python and the read cvs
-function.
+module.
 
 ## Election-Audit results
 - There was a total of 369,711 votes
