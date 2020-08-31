@@ -20,7 +20,7 @@ a higher average fare, $55.49 for rural, $39.50 for suburban and $16.57 probably
 due to the distances between destinations and perhaps competition between drivers.
 
 
-##Summary
+## Summary
 
 One recommendation I suggest we look at is the number of drivers that we have in
 Urban city types. Is this a data error or is there another explanation like people
