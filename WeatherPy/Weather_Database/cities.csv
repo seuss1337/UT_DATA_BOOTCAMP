@@ -1,0 +1,11 @@
+City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Description
+0,Hobart,AU,-42.88,147.33,55.99,76,58,12.75,broken clouds
+1,Malinovskiy,RU,61.2,62.84,46.49,86,0,4.68,clear sky
+2,Fortuna,US,40.6,-124.16,87.01,48,40,8.05,scattered clouds
+3,Upernavik,GL,72.79,-56.15,36.95,80,96,12.84,overcast clouds
+4,Roma,US,43.21,-75.46,73.4,40,20,6.93,few clouds
+5,Nelson Bay,AU,-32.72,152.15,51.01,100,0,1.12,clear sky
+6,Tautira,PF,-17.73,-149.15,80.6,74,75,13.87,broken clouds
+7,Posyet,RU,42.65,130.8,64.17,80,100,1.1,light rain
+8,Norman Wells,CA,65.28,-126.83,53.6,62,40,11.41,scattered clouds
+9,Sisimiut,GL,66.94,-53.67,40.78,69,19,18.03,few clouds
