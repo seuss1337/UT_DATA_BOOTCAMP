@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -9,7 +10,17 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
-  </head>
+
+</head>
+ <style media="screen" >
+     .border-0{
+         border-top-width: 0;
+         border-right-width: 0;
+         border-bottom-width: 0;
+         border-left-width: 0;
+     }
+ </style>
+
   <body>
     <div class="container">
       <!-- Add Jumbotron to Header -->
@@ -55,14 +66,14 @@
       </div>
 
       <!-- Section for Mars Hemispheres -->
-      <div class="row" id="mars-hemispheres">
+      <div class="row border-0" id="mars-hemispheres">
         <div class="page-header">
           <h2 class="text-center">Mars Hemispheres</h2>
         </div>
 
         {% for hemisphere in mars.url_dicts %}
-        <div class="col-md-6">
-          <div class="thumbnail">
+        <div class="col-md-6 border-0">
+          <div class="thumbnail border-0" border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;>
             <img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" alt="..." class="img-circle">
             <div class="caption">
               <h3>{{hemisphere.title}}</h3>
