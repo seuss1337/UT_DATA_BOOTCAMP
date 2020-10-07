@@ -12,6 +12,21 @@
     />
 
 </head>
+<style>
+.thumbnail {
+    BOX-SHADOW: 0 0 black;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #333;
+    border: 0 px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+</style>
  <style media="screen" >
      .border-0{
          border-top-width: 0;
@@ -20,7 +35,40 @@
          border-left-width: 0;
      }
  </style>
+ <style>
+ .jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+    background-image: url("https://www.economist.com/img/b/1000/563/90/sites/default/files/images/2018/12/articles/main/20181222_stp503.jpg");
+    background-size: cover;
 
+}
+ </style>
+ <style>
+ body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #ec8934;
+background-color: #333;
+ </style>
+<style>
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #333;
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+</style>
   <body>
     <div class="container">
       <!-- Add Jumbotron to Header -->
@@ -72,8 +120,8 @@
         </div>
 
         {% for hemisphere in mars.url_dicts %}
-        <div class="col-md-6 border-0">
-          <div class="thumbnail border-0" >
+        <div class="col-md-6">
+          <div class="thumbnail" >
             <img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" alt="..." class="img-circle">
             <div class="caption">
               <h3>{{hemisphere.title}}</h3>
