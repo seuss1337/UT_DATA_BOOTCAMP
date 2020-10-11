@@ -2,7 +2,7 @@
      alt="The Truth is Out There"
      style="float: center; margin-right: 10px;" />
 
-##UFO Sightings!
+## UFO Sightings!
 
 Dana our data journalist friend has just received the opportunity to write about
 UFO sightings on her hometown. All she has to go by is a Javascript file filled
