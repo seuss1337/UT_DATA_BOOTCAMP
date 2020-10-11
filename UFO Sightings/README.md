@@ -1,4 +1,4 @@
 #UFO Sightings!
-<img src="/images/markdownmonstericon.png"
-     alt="Markdown Monster icon"
+<img src="/images/ufo.jpg"
+     alt="The Truth is Out There"
      style="float: center; margin-right: 10px;" />
