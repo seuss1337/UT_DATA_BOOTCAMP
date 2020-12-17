@@ -1,0 +1,32 @@
+{
+    "id": "D6078272",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1604547897123.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "expression": "demo_table2",
+        "caption": "demo_table2",
+        "totalObservations": 10,
+        "displayedObservations": 10,
+        "variables": 22,
+        "cacheKey": "2C8235E3",
+        "object": "demo_table2",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=demo_table2&cache_key=2C8235E3&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2459592266154403181,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1604547897123,
+    "read_only": false,
+    "read_only_alternatives": []
+}
